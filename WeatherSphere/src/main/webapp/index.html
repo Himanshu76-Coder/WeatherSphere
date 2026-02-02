@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home</title>
+
+    <!-- Font Awesome for search icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Main welcome container -->
+    <div class="welcomeContainer">
+
+        <!-- App logo -->
+        <img src="Images/weather-logo.png"
+             alt="Weather Logo"
+             class="weatherLogo">
+
+        <!-- Heading and Instruction text -->
+        <h1>Welcome to the Weather Web App</h1>
+        <h3>Enter a city name to check its weather</h3>
+
+        <!-- Weather search form -->  
+        <form action="weather" method="post" class="searchInput">
+
+            <!-- City input field -->
+            <input type="text"
+                   name="city"
+                   placeholder="Enter City Name"
+                   value="Pune"
+                   required>
+
+            <!-- Submit button -->
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
+

@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #2b40ff, #07121a);
+}
+
+.mainContainer {
+    width: 25rem;
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.searchInput {
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.searchInput input {
+    width: 100%;
+    height: 2rem;
+    outline: none;
+    font-size: 1rem;
+    color: #525050;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid #b3b3b3;
+}
+
+.searchInput input:focus {
+    border: 1px solid #9c9dde;
+}
+
+.searchInput button {
+    width: 2.2rem;
+    height: 2rem;
+    margin-left: 0.4rem;
+    cursor: pointer;
+    color: #9b9b9b;
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #b3b3b3;
+    transition: all 0.3s ease;
+}
+
+.searchInput button:hover {
+    color: #ffffff;
+    background-color: #9c9dde;
+    border: 1px solid #9c9dde;
+}
+
+.weatherIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.weatherIcon img {
+    width: 8rem;
+    max-width: 100%;
+}
+
+.cityDetails {
+    color: #323232;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.cityDetails .date {
+    font-size: 1.5rem;
+    margin-top: 0.2rem;
+}
+
+.windDetails {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.windDetails .humidityBox {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #323232;
+}
+
+.windDetails .humidityBox img {
+    max-height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.windDetails .windSpeed {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #323232;
+}
+
+.windDetails .windSpeed img {
+    max-height: 3rem;
+    margin-right: 0.5rem;
+}
+
+.welcomeContainer {
+  text-align: center;
+  color: white;
+}	
+
+.weatherLogo {
+  width: 400px;
+  margin-bottom: 1rem;
+  filter: drop-shadow(10px 10px 10px black);
+}
+
+
+
+
