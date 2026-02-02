@@ -22,7 +22,7 @@ import jakarta.servlet.http.HttpServletResponse;
 public class WeatherController extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
-	// Default constructor
+	// Default constructor 
     public WeatherController() {
         super();
     }
@@ -108,7 +108,4 @@ public class WeatherController extends HttpServlet {
 
 	}
 }
-
-
-
 
